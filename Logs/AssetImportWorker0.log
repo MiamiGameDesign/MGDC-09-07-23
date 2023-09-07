@@ -3242,3 +3242,187 @@ Received Import Request.
 Start importing Assets/MoveCamera.cs using Guid(c642c850f95dd0343a9ac9f97b9fc22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a3c9afa03d683647877eaf32d8a0fa1') in 0.0158972 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3396 unused Assets / (0.9 MB). Loaded Objects now: 4049.
+Memory consumption went from 108.9 MB to 108.0 MB.
+Total: 5.179900 ms (FindLiveObjects: 0.267300 ms CreateObjectMapping: 0.113900 ms MarkObjects: 4.124600 ms  DeleteObjects: 0.672900 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3397 unused Assets / (0.8 MB). Loaded Objects now: 4049.
+Memory consumption went from 108.9 MB to 108.0 MB.
+Total: 3.892700 ms (FindLiveObjects: 0.238800 ms CreateObjectMapping: 0.113200 ms MarkObjects: 2.955600 ms  DeleteObjects: 0.584000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 547.099329 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(ea0a0c9e7be98284fba4d1aed0c9b189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(ea0a0c9e7be98284fba4d1aed0c9b189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60aacd1d906fb6bafe8b2d10a3101db0') in 0.0012189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.458115 seconds.
+  path: Assets/Script
+  artifactKey: Guid(b7f693e7d1c3440409934a828d5a9a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script using Guid(b7f693e7d1c3440409934a828d5a9a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4955c49922d6c72669428f510e7d3510') in 0.001025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.389459 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(ea0a0c9e7be98284fba4d1aed0c9b189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(ea0a0c9e7be98284fba4d1aed0c9b189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60aacd1d906fb6bafe8b2d10a3101db0') in 0.0005861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3397 unused Assets / (0.8 MB). Loaded Objects now: 4049.
+Memory consumption went from 108.9 MB to 108.1 MB.
+Total: 3.206300 ms (FindLiveObjects: 0.245100 ms CreateObjectMapping: 0.099000 ms MarkObjects: 2.338100 ms  DeleteObjects: 0.523700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.576057 seconds.
+  path: Assets/Script/PlayerMovement.cs
+  artifactKey: Guid(9c72346421125764793e61702923a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerMovement.cs using Guid(9c72346421125764793e61702923a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f766c8869e91f37947929a32cd1134ae') in 0.0012851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.726144 seconds.
+  path: Assets/Script/NewBehaviourScript.cs
+  artifactKey: Guid(ea0a0c9e7be98284fba4d1aed0c9b189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/NewBehaviourScript.cs using Guid(ea0a0c9e7be98284fba4d1aed0c9b189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60aacd1d906fb6bafe8b2d10a3101db0') in 0.0005111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3397 unused Assets / (0.8 MB). Loaded Objects now: 4049.
+Memory consumption went from 108.9 MB to 108.1 MB.
+Total: 3.180500 ms (FindLiveObjects: 0.207200 ms CreateObjectMapping: 0.094700 ms MarkObjects: 2.320600 ms  DeleteObjects: 0.557400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.832309 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(4f2082d48d8958c42ac5660b77304a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(4f2082d48d8958c42ac5660b77304a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c00f068230c64ea01838c6c947fa786') in 0.0015043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.365758 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(ea0a0c9e7be98284fba4d1aed0c9b189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(ea0a0c9e7be98284fba4d1aed0c9b189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60aacd1d906fb6bafe8b2d10a3101db0') in 0.0006009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3397 unused Assets / (0.8 MB). Loaded Objects now: 4049.
+Memory consumption went from 108.9 MB to 108.1 MB.
+Total: 3.349800 ms (FindLiveObjects: 0.244500 ms CreateObjectMapping: 0.126800 ms MarkObjects: 2.446200 ms  DeleteObjects: 0.531500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.941346 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(9c72346421125764793e61702923a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(9c72346421125764793e61702923a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f766c8869e91f37947929a32cd1134ae') in 0.0006478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.196329 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(46060af69b8074c40ae9c3b539c9d736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(46060af69b8074c40ae9c3b539c9d736) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '133acd0f85ccb4a6661b3a8289e28aaf') in 0.0004291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.621019 seconds.
+  path: Assets/Scripts/NewBehaviourScript.cs
+  artifactKey: Guid(ea0a0c9e7be98284fba4d1aed0c9b189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(ea0a0c9e7be98284fba4d1aed0c9b189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60aacd1d906fb6bafe8b2d10a3101db0') in 0.0005865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3396 unused Assets / (0.8 MB). Loaded Objects now: 4048.
+Memory consumption went from 108.9 MB to 108.1 MB.
+Total: 3.656500 ms (FindLiveObjects: 0.244300 ms CreateObjectMapping: 0.128700 ms MarkObjects: 2.795500 ms  DeleteObjects: 0.487400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.620206 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(9c72346421125764793e61702923a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(9c72346421125764793e61702923a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f766c8869e91f37947929a32cd1134ae') in 0.0008232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3396 unused Assets / (0.8 MB). Loaded Objects now: 4048.
+Memory consumption went from 108.9 MB to 108.1 MB.
+Total: 5.265900 ms (FindLiveObjects: 0.432000 ms CreateObjectMapping: 0.156000 ms MarkObjects: 3.673700 ms  DeleteObjects: 1.003100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 32.886112 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(9c72346421125764793e61702923a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(9c72346421125764793e61702923a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83ddd67e2dbc28489e23fef6ef316bd0') in 0.0014826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.627121 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(9c72346421125764793e61702923a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(9c72346421125764793e61702923a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83ddd67e2dbc28489e23fef6ef316bd0') in 0.000638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3395 unused Assets / (0.9 MB). Loaded Objects now: 4047.
+Memory consumption went from 108.9 MB to 108.0 MB.
+Total: 4.806300 ms (FindLiveObjects: 0.245600 ms CreateObjectMapping: 0.099500 ms MarkObjects: 3.740100 ms  DeleteObjects: 0.719700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
