@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Door
   - Key
+  - Platforms
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Platforms
   - Water
   - UI
   - 
