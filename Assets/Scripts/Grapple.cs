@@ -24,8 +24,6 @@ public class Grapple : MonoBehaviour
     public bool isGrappled = false;
     RaycastHit2D hit;
 
-<<<<<<< Updated upstream
-=======
     public AudioSource audioSource;
     public AudioClip meow;
     public AudioClip shoot;
@@ -35,8 +33,6 @@ public class Grapple : MonoBehaviour
         rb.gravityScale = 1;
     }
 
->>>>>>> Stashed changes
-    // Update is called once per frame
     void Update()
     {   
         //Single line updates
