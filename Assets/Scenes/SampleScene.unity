@@ -1153,6 +1153,7 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &1673591109
 GameObject:
   m_ObjectHideFlags: 0
@@ -1481,6 +1482,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &2437540535820458915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1543,7 +1546,10 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f64cede950533a049a76774898324d17, type: 3}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &3772712764206247524
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1605,6 +1611,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b574f45970c485042b1d0afa34800783, type: 3}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -1618,7 +1627,11 @@ SceneRoots:
   - {fileID: 267921951}
   - {fileID: 1057847102}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - {fileID: 1673591114}
+=======
+  - {fileID: 3772712764206247524}
+>>>>>>> Stashed changes
 =======
   - {fileID: 3772712764206247524}
 >>>>>>> Stashed changes

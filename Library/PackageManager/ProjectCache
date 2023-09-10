@@ -5,16 +5,26 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 638299788300237702
     m_Hash: 860381122
+=======
+      ticks: 638299780024548983
+    m_Hash: 3768678408
+>>>>>>> Stashed changes
   m_LockFileStatus:
     m_FilePath: C:/Users/justi/OneDrive/Documents/GitHub/MGDC-09-07-23/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 638299788300242838
     m_Hash: 125249286
+=======
+      ticks: 638299780024754275
+    m_Hash: 3728714420
+>>>>>>> Stashed changes
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
