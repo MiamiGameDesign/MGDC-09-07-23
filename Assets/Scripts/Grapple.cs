@@ -15,19 +15,18 @@ public class Grapple : MonoBehaviour
     public Rigidbody2D rb;
     public DistanceJoint2D distanceJoint;
     public GameObject reticle;
-    //public CharacterMove characterMove;
     public LineRenderer lineRenderer;
 
     [Header("Variables")]
     private float maxRopeLength = 10;
-    private float pullSpeed = 0.5f;
+    private float pullSpeed = 0.1f;
     private float startDistance;
     public bool isGrappled = false;
     RaycastHit2D hit;
 
     void Start()
     {
-        rb.gravityScale = 0;
+        rb.gravityScale = 1;
     }
 
     // Update is called once per frame
@@ -98,11 +97,6 @@ public class Grapple : MonoBehaviour
         {
             distanceJoint.enabled = false;
             isGrappled = false;
-
-            /*if(characterMove.canJump == false)
-            {
-                rb.velocity = new Vector2(rb.velocity.x * 1.5f, (rb.velocity.y * 2) + 5);
-            }*/
         }
     }
 
