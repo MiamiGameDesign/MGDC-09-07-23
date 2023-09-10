@@ -24,6 +24,18 @@ public class Grapple : MonoBehaviour
     public bool isGrappled = false;
     RaycastHit2D hit;
 
+<<<<<<< Updated upstream
+=======
+    public AudioSource audioSource;
+    public AudioClip meow;
+    public AudioClip shoot;
+    public AudioClip reel;
+    void Start()
+    {
+        rb.gravityScale = 1;
+    }
+
+>>>>>>> Stashed changes
     // Update is called once per frame
     void Update()
     {   
@@ -75,6 +87,8 @@ public class Grapple : MonoBehaviour
     {
         if (hit)
         {
+            audioSource.PlayOneShot(meow);
+            audioSource.PlayOneShot(shoot);
             distanceJoint.enabled = true;
             distanceJoint.connectedAnchor = hit.point;
             isGrappled = true;
