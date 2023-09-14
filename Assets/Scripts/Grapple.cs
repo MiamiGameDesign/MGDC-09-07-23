@@ -19,7 +19,7 @@ public class Grapple : MonoBehaviour
 
     [Header("Variables")]
     private float maxRopeLength = 10;
-    private float pullSpeed = 0.1f;
+    private float pullSpeed = 5;
     private float startDistance;
     public bool isGrappled = false;
     RaycastHit2D hit;
@@ -52,7 +52,7 @@ public class Grapple : MonoBehaviour
 
         if(isGrappled && distanceJoint.distance <= startDistance)
         {
-            distanceJoint.distance -= pullSpeed;
+            distanceJoint.distance -= pullSpeed * Time.deltaTime;
         }
 
         if(distanceJoint.distance > startDistance)

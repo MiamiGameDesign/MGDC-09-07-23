@@ -15,7 +15,7 @@ public class Airlock : MonoBehaviour
     {
         if(collision.CompareTag("Airlock"))
         {
-            transform.position = Vector3.MoveTowards(transform.position, collision.gameObject.transform.position, 0.025f);
+            transform.position = Vector3.MoveTowards(transform.position, collision.gameObject.transform.position, 0.1f);
         }
     }
 
