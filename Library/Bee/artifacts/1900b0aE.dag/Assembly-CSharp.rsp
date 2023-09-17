@@ -368,7 +368,6 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.0b8/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.0b8/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Scripts/Airlock.cs"
-"Assets/Scripts/AirlockSound.cs"
 "Assets/Scripts/CollectKey.cs"
 "Assets/Scripts/Grapple.cs"
 "Assets/Scripts/MoveCamera.cs"

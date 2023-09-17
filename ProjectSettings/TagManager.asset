@@ -8,6 +8,7 @@ TagManager:
   - Key
   - Platforms
   - Airlock
+  - Win
   layers:
   - Default
   - TransparentFX

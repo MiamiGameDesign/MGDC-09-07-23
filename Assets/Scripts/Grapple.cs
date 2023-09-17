@@ -10,6 +10,7 @@ public class Grapple : MonoBehaviour
     public Vector2 direction;
     public Vector2 startPosition;
     public Vector2 hitStartPosition;
+    private Vector3 lastPosition = Vector3.zero;
 
     [Header("GameObjects and Components")]
     public LayerMask platformLayerMask;
@@ -17,11 +18,15 @@ public class Grapple : MonoBehaviour
     public DistanceJoint2D distanceJoint;
     public GameObject reticle;
     public LineRenderer lineRenderer;
+    public GameObject gameOverScreen;
+    public GameObject gameWinScreen;
+    public MeshRenderer meshRenderer;
 
     [Header("Variables")]
     private float maxRopeLength = 10;
     private float pullSpeed = 5;
     private float startDistance;
+    private float speed;
     public bool isGrappled = false;
     RaycastHit2D hit;
 
@@ -29,9 +34,14 @@ public class Grapple : MonoBehaviour
     public AudioClip[] meow;
     public AudioClip shoot;
     public AudioClip reel;
+    public AudioClip die;
+    public AudioClip win;
+
     void Start()
     {
         rb.gravityScale = 1;
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = false;
     }
 
     void Update()
@@ -46,38 +56,55 @@ public class Grapple : MonoBehaviour
         CheckReticlePosition();
 
         //If statements
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && gameOverScreen.activeInHierarchy == false)
         {
             GrappleToObject();
         }
 
-        if(isGrappled && distanceJoint.distance <= startDistance)
+        if(isGrappled && distanceJoint.distance <= startDistance && gameOverScreen.activeInHierarchy == false)
         {
             distanceJoint.distance -= pullSpeed * Time.deltaTime;
         }
 
-        if(distanceJoint.distance > startDistance)
+        if(distanceJoint.distance > startDistance && gameOverScreen.activeInHierarchy == false)
         {
             distanceJoint.distance = distanceJoint.distance -= 0.01f;
         }
 
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Space) && gameOverScreen.activeInHierarchy == false)
         {
             resetHook();
         }
 
-        if(distanceJoint.enabled == false)
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+
+        if(distanceJoint.enabled == false && gameOverScreen.activeInHierarchy == false)
         {
             lineRenderer.SetPosition(1, transform.position);
         }
 
-        if (startPosition.y > hitStartPosition.y)
+        if(transform.position.x >= 52)
         {
-            if (transform.position.y > hitStartPosition.y)
-            {
-                distanceJoint.distance -= pullSpeed * 2;
-            }
+            gameWinScreen.SetActive(true);
+            reticle.SetActive(false);
+            meshRenderer.enabled = false;
+            lineRenderer.enabled = false;
+            audioSource.PlayOneShot(win, 5);
         }
+    }
+
+    private void FixedUpdate()
+    {
+        speed = (transform.position - lastPosition).magnitude;
+        lastPosition = transform.position;
     }
 
     void GrappleToObject()
@@ -141,9 +168,13 @@ public class Grapple : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Airlock"))
+        if (collision.gameObject.CompareTag("Airlock") || speed >= 0.15f)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            gameOverScreen.SetActive(true);
+            reticle.SetActive(false);
+            meshRenderer.enabled = false;
+            lineRenderer.enabled = false;
+            audioSource.PlayOneShot(die);
         }
     }
 }
