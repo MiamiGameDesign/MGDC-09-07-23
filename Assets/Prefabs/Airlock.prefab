@@ -172,6 +172,7 @@ GameObject:
   - component: {fileID: 1628103400391646211}
   - component: {fileID: 5574616177883427239}
   - component: {fileID: 493064505739812947}
+  - component: {fileID: 8795629276228379206}
   m_Layer: 0
   m_Name: Airlock
   m_TagString: Airlock
@@ -283,3 +284,15 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.75}
   m_Radius: 1.5
+--- !u!114 &8795629276228379206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5423902920629449043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4297214bd609fe444a6b6bbfa78e5331, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

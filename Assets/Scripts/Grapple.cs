@@ -25,7 +25,7 @@ public class Grapple : MonoBehaviour
     RaycastHit2D hit;
 
     public AudioSource audioSource;
-    public AudioClip meow;
+    public AudioClip[] meow;
     public AudioClip shoot;
     public AudioClip reel;
     void Start()
@@ -83,7 +83,7 @@ public class Grapple : MonoBehaviour
     {
         if (hit)
         {
-            audioSource.PlayOneShot(meow);
+            audioSource.PlayOneShot(meow[Random.Range(0, meow.Length)]);
             audioSource.PlayOneShot(shoot);
             distanceJoint.enabled = true;
             distanceJoint.connectedAnchor = hit.point;
