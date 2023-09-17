@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Grapple : MonoBehaviour
 {
@@ -135,6 +136,14 @@ public class Grapple : MonoBehaviour
             {
                 reticle.transform.position = new Vector3(hit.point.x, hit.point.y, -1);
             }
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Airlock"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }
